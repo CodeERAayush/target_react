@@ -14,11 +14,6 @@ export default function FetchCat(props){
 
 
  React.useEffect(() => {
-    // console.log(props.getUrl)
-    // Axios.get(props.getUrl)
-    // .then((res)=>{
-    // setCatData(res.data.fact)
-    // });
     getNew();
     return () => {
         console.log("unmounted!")
