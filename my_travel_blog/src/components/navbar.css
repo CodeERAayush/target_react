@@ -1,0 +1,17 @@
+.navHolder{
+    background-color: beige;
+    box-shadow: 0px 2px 4px rebeccapurple;  
+    border-radius: 25px; 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.list{
+    display: flex;
+    text-decoration: none;
+}
+.list >li{
+    list-style: none;
+    
+    /* text-shadow: 0px 1px 3px royalblue; */
+    padding: 9px;
+}

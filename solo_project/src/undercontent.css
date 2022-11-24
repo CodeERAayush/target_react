@@ -1,0 +1,11 @@
+body{
+    background-color: aliceblue;
+}
+.list_itm{
+    line-height: normal;
+    word-spacing: normal;
+    margin-top: 30px;
+}
+.list_itm > li::marker{
+    color: red;
+}

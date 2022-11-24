@@ -1,0 +1,37 @@
+.mainContainer{
+    display: flex;
+    padding: 25px;
+    box-shadow: 0px 0px 4px black;
+    /* box-shadow: rgb(66, 152, 245) 0px 20px 30px -10px; */
+    margin: 5px;
+    border-radius: 15px;
+}
+.mainContainer:hover{
+    transform: rotate(1deg);
+    box-shadow: rgb(66, 152, 245) 0px 20px 30px -10px;
+}
+.locIco{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dataSec{
+    display: flex;
+    flex-direction: column;
+    
+}
+.iconLoc{
+    margin-left: 5px;
+}
+.locIco >p{
+    color: grey;
+    margin-left: 5px;
+
+}
+.heading{
+min-height: 3px;
+padding-left: 10px;
+}
+.data{
+    padding-left:10px ;
+}
